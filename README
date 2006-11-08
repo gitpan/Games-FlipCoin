@@ -1,0 +1,42 @@
+Games-FlipCoin
+
+Games::FlipCoin is a simple library that simulates the flip of a coin and returns the outcome as either 0 or 1. 
+The coin is normally unbiased.  However, to simulate a biased coin, a bias factor can be passed to the flip()
+subroutine which will bias the coin toward the 1 result.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the perldoc command.
+
+    perldoc Games::FlipCoin
+
+You can also look for information at:
+
+    Search CPAN
+        http://search.cpan.org/dist/Games-FlipCoin
+
+    CPAN Request Tracker:
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Games-FlipCoin
+
+    AnnoCPAN, annotated CPAN documentation:
+        http://annocpan.org/dist/Games-FlipCoin
+
+    CPAN Ratings:
+        http://cpanratings.perl.org/d/Games-FlipCoin
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 Troy Denkinger
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
